@@ -4,14 +4,12 @@
   </div>
 
 
-  <!-- Hamburger Icon (visible only on small screens) -->
   <button class="hamburger" (click)="toggleMenu()">
     <span class="bar"></span>
     <span class="bar"></span>
     <span class="bar"></span>
   </button>
 
-  <!-- Navigation Menu (conditionally displayed) -->
   <nav [ngClass]="{'active': isMenuOpen}">
     <a href="#slider">Home</a>
     <a href="#about">About</a>
