@@ -1,0 +1,41 @@
+.about {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.8s ease-out;
+}
+
+.about.visible {
+  opacity: 1;
+}
+.about img {
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 18px;
+  color: #666;
+}
+.about-title {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 25px;
+  border: 1px solid;
+  min-width: 150px;
+  cursor: pointer;
+
+  :focus{
+    background-color: gray;
+  }
+}
+

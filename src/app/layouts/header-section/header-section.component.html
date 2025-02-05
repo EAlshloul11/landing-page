@@ -1,0 +1,20 @@
+<header class="header-menu">
+  <div class="logo">
+    IT Company
+  </div>
+
+  <button class="hamburger" (click)="toggleMenu()">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+
+  <nav [ngClass]="{'active': isMenuOpen}">
+    <a href="#slider" routerLinkActive="active-link">Home</a>
+    <a href="#about" routerLinkActive="active-link">About</a>
+    <a href="#services" routerLinkActive="active-link">Services</a>
+    <a href="#portfolio" routerLinkActive="active-link">Portfolio</a>
+    <a href="#founders" routerLinkActive="active-link">Founders</a>
+    <a href="#contact" routerLinkActive="active-link">Contact</a>
+  </nav>
+</header>
